@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.static_framework = true
   spec.vendored_frameworks = "YourModuleName.xcframework"
   spec.libraries = "c++"
-  spec.ios.deployment_target = '14.1'
+  spec.ios.deployment_target = '13.0'
 end
